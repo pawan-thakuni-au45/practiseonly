@@ -14,6 +14,7 @@ function App() {
   if(searchText.trim() !==" "){
       setSearch(searchText)
       setSearchText('')
+      console.log('this');
     
   }
 }
